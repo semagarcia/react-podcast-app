@@ -1,0 +1,32 @@
+{
+  "name": "react-podcast-app",
+  "description": "A small React app for iTunes podcasts",
+  "version": "1.0.0",
+  "author": {
+    "name": "Sema García"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/semagarcia/react-podcast-app.git"
+  },
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/semagarcia/react-podcast-app/issues"
+  },
+  "homepage": "https://github.com/semagarcia/react-podcast-app#readme",
+  "private": true,
+  "engines": {
+    "node": ">=14.0.0 <15.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.4.5",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+  }
+}
