@@ -63,6 +63,8 @@ npm run test:accessibility
 npm run test:snapshots
 ```
 
+Some unit tests (with watch mode) and its coverage has been added to the project.
+
 
 ## How to work with the repo and contribute
 You can contribute to the repo and improve its functionality. In order to do that, you should have in mind that there's
