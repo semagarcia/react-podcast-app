@@ -1,0 +1,6 @@
+/node_modules
+/build
+*.stories.js
+*.test.js
+/test_e2e
+*.min.js

@@ -1,0 +1,10 @@
+{
+  "src/**/*.js": [
+    "npm run format",
+    "npm run lint"
+  ],
+  "*.scss": [
+    "npm run format:stylelint",
+    "npm run lint:stylelint"
+  ]
+}
