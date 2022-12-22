@@ -1,0 +1,9 @@
+// We can discuss if better fits a SCSS variable or a custom property (CSS variables)
+// The design system also includes more tokens than color or sizes
+
+// Token: colors
+$ds-color-border-bottom: #a0a0a0;
+$ds-color-header-title: #072146;
+
+// Token: sizes
+$ds-fsize-header-title: 32px;

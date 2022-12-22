@@ -1,0 +1,23 @@
+@import 'src/styles/utils';
+
+.episode-card-container {
+  @include card-shadow;
+  height: min-content;
+  margin: 0 32px;
+  padding: 16px;
+  .title {
+    font-family: 'RobotoMedium', sans-serif;
+    font-size: 32px;
+  }
+  .description {
+    color: #666;
+    font-family: 'RobotoRegular', sans-serif;
+    font-style: italic;
+    padding-top: 8px;
+    position: relative;
+  }
+  .audio-source {
+    margin-top: 32px;
+    audio { width: 100%; }
+  }
+}

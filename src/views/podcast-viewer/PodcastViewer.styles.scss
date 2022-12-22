@@ -1,0 +1,11 @@
+.left-column {
+  animation: slideFromLeft ease-in-out .5s;
+  animation-delay: .15s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+}
+
+@keyframes slideFromLeft {
+  0% { translate: -300px; }
+  100% { translate: 0; }
+}

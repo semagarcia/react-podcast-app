@@ -14,3 +14,12 @@ root.render(
     </BrowserRouter>
   </React.StrictMode>
 );
+
+// Using separate file to define the routes:
+// import { RouterProvider } from 'react-router-dom';
+// import AppRouter from './routes/app-router';
+// root.render(
+//   <React.StrictMode>
+//     <RouterProvider router={AppRouter} />
+//   </React.StrictMode>
+// );

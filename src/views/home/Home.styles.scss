@@ -1,0 +1,23 @@
+.filter-area {
+  justify-content: flex-end;
+  margin-bottom: 24px;
+  .filtered-results-counter {
+    background-color: #000;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'RobotoMedium', sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    margin: 0 8px;
+    min-width: 48px;
+    padding: 10px;
+  }
+  .filter-field {
+    border-radius: 8px;
+    padding: 10px;
+  }
+}
+.results-grid {
+  flex-wrap: wrap;
+  justify-content: center;
+}

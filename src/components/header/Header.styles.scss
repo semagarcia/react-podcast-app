@@ -1,0 +1,15 @@
+@import 'src/styles/design-system';
+
+.app-title {
+  font-family: 'RobotoMedium', sans-serif;
+  font-size: $ds-fsize-header-title;
+  a:link, a:visited, a:focus, a:active { color: $ds-color-header-title; text-decoration: none; }
+}
+.bottom-border {
+  border-bottom: 1px solid #d3d3d3;
+  justify-content: space-between;
+}
+.loading {
+  height: 50px;
+  width: 50px;
+}

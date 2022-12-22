@@ -1,9 +1,31 @@
+// @import 'design-system';
+@import './styles/fonts';
+@import './styles/utils';
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
 
 html, body {
   margin: 0;
+  font-family: 'RobotoRegular', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.lazy-suspense-loader {
+  align-items: center;
+  display: flex;
+  font-family: 'RobotoMedium', sans-serif;
+  font-size: 28px;
+  height: 100%;
+  justify-content: center;
+}
+
+.flex-row { display: flex; }
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.flex-grow-1 { flex-grow: 1; }
+.full-width { width: 100%; }

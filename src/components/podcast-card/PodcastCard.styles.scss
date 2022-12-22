@@ -1,0 +1,33 @@
+@import 'src/styles/utils';
+
+.card-container {
+  @include card-shadow;
+  margin: 88px 24px 16px;
+  max-width: 280px;
+  min-width: 280px;
+  padding: 16px;
+  position: relative;
+  .logo {
+    position: absolute;
+    top: -64px;
+    width: 100%;
+    & > img { border-radius: 50%; width: 128px; }
+  }
+  .title {
+    font-family: 'RobotoMedium', sans-serif;
+    margin-top: 64px;
+    position: relative;
+    text-transform: uppercase;
+  }
+  .author {
+    color: #666;
+    font-family: 'RobotoRegular', sans-serif;
+    padding-top: 8px;
+    position: relative;
+  }
+  .logo, .title, .author {
+    justify-content: center;
+    text-align: center;
+  }
+  &:hover { cursor: pointer; }
+}

@@ -1,0 +1,29 @@
+@import 'styles/utils';
+
+.left-column { margin-right: 32px; }
+.right-column {
+  .episode-counter, .episode-list { @include card-shadow; }
+  .episode-counter {
+    font-family: 'RobotoMedium', sans-serif;
+    font-size: 24px;
+    padding: 8px 16px;
+  }
+  .episode-list {
+    margin-top: 16px;
+    padding: 8px 16px;
+    .list-header, .list-entry {
+      display: grid;
+      grid-template-columns: 3fr 1fr 1fr;
+      grid-column-gap: 8px;
+      grid-row-gap: 8px;
+      .date, .duration { text-align: center; }
+    }
+    .list-header { font-family: 'RobotoMedium', sans-serif; }
+  }
+  .retrieving-loader {
+    font-style: italic;
+    justify-content: center;
+    font-family: 'RobotoRegular', sans-serif;
+    margin-top: 24px;
+  }
+}
