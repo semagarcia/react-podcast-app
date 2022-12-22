@@ -5,7 +5,6 @@ import EpisodeCard from 'components/episode-card/EpisodeCard';
 import useStorageWithCache from 'custom-hooks/useStorageWithCache';
 import { podcastDetailMapper } from 'mappers/mappers';
 import API_ENDPOINTS from 'models/api-endpoints';
-import CONSTANTS from 'models/constants';
 import { buildUrlForCORS } from 'utils/cors-enabler';
 
 /**
@@ -19,7 +18,7 @@ const PodcastEpisodeView = () => {
       '#PODCAST_ID#',
       podcastId
     ),
-    CONSTANTS.PODCAST_DETAIL_DATA_KEY,
+    null,
     podcastDetailMapper
   );
 

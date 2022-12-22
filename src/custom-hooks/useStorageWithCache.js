@@ -42,10 +42,12 @@ const useStorageWithCache = (url = '', key = '', mapper) => {
           const dataToBeCached =
             mapper && typeof mapper === 'function' ? mapper(resp) : resp;
           try {
-            const now = Date.now();
-            localStorage.setItem(key + '-ts', JSON.stringify(now));
-            setLastSave(now);
-            localStorage.setItem(key, JSON.stringify(dataToBeCached));
+            if (key) {
+              const now = Date.now();
+              localStorage.setItem(key + '-ts', JSON.stringify(now));
+              setLastSave(now);
+              localStorage.setItem(key, JSON.stringify(dataToBeCached));
+            }
             setData(dataToBeCached);
           } catch (error) {
             console.log('Error', error);
