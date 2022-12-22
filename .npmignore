@@ -1,0 +1,10 @@
+.npmignore
+__snapshots__/*
+build/*
+coverage-reports/*
+demo/*
+payments-business-inteligence-overview/*
+node_modules/*
+screenshots/*
+test/*
+test_e2e/*
